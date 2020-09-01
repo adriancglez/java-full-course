@@ -131,7 +131,7 @@ c) `int personaId`;
 
   c)  Error
 
-### PRÁCTICA
+### PRÁCTICA 1
 
 Se solicita incluir la siguiente información acerca de un libro:
 
@@ -170,3 +170,122 @@ Estos tipos de Java son los mas básicos y son los que utilizaremos si necesitam
 
 ![alt](tipos_primitivos_tamanios.png)
 
+### EXÁMEN DE TIPOS DE DATOS
+
+1. ¿Cuál es el tipo de datos de esta variable?:
+  > `C`
+
+  ~~~
+  var a = 0; 
+  ~~~
+
+  a) byte
+
+  b) short
+
+  c) int
+
+  d) long
+
+2. ¿Cuál es el rango del tipo short ?
+  > `B`
+
+  a) -128 a 127
+
+  b) -32,768 a 32,767
+
+  c) -2,147483,648 a 2,147483,647
+
+  d) -9,223,372,036,854,775,808 a -9,223,372,036,854,775,807
+
+3. ¿Cuántos bytes tiene una variable de tipo long?
+
+  > `C`
+
+  a) 1
+
+  b) 2
+
+  c) 4
+
+  c) 8
+
+4. ¿Cuántos bits toma una variable de tipo int?
+
+  > `C`
+
+  a) 8
+
+  b) 16
+
+  c) 32
+
+  c) 64
+
+5. ¿Cuál es el tipo de dato para esta variable?
+  
+  > `B`
+  
+  ~~~
+  var a = 5.3; 
+  ~~~
+
+  a) float
+
+  b) double
+
+6. ¿Cuántos bits toma una variable de tipo flotante?
+
+> `C`
+
+a) 8
+
+b) 16
+
+c) 32
+
+d) 64
+
+### PRÁCTICA 2
+
+Se solicita capturar la siguiente información de una tienda de libros:
+
+nombre (String)
+
+id (int)
+
+precio (double)
+
+envioGratuito (boolean)
+
+Tu tarea es imprimir un mensaje en el siguiente formato:
+
+  ~~~
+  Proporciona el nombre:
+  Proporciona el id:
+  Proporciona el precio:
+  Proporciona el envio gratuito:
+  <nombre> #<id>
+  Precio: <simbolo><precio>
+  Envio Gratuito: <envioGratuito>
+  ~~~
+
+Por ejemplo:
+
+  ~~~
+  Proporciona el nombre:
+  Programacion con Java
+  Proporciona el id:
+  1520
+  Proporciona el precio:
+  899
+  Proporciona el envio gratuito:
+  true
+  Programacion con Java #1520
+  Precio: $899.00
+  Envio Gratuito: true
+  ~~~
+Puedes utilizar el IDE de tu preferencia para codificar la solución y después pegar tu solución en esta herramienta.
+
+Preguntas de esta tarea
+> ¿Cuál es el código del requerimiento solicitado?
